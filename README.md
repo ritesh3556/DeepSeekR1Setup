@@ -7,14 +7,18 @@
 
 1. **Download & Install Ollama** from [Ollama Official Site](https://ollama.com/)  
 2. **Download & Install Python** from [Python Official Site](https://www.python.org/downloads/)  
-3. **Check if Python is Installed**  
+3. **QuickStart Ollama run**
+   ```
+   ollama run "deepseek-r1:1.5b" 
+   ```
+4. **Check if Python is Installed**  
    ```
    Windows
    python --version
 
    Mac/Linux
    python3 --version
-   ```
+   ```   
 ### 🌍 <span style="color:teal">Virtual Environment Setup</span>
 #### To create a virtual environment, run:
    ```
@@ -42,7 +46,7 @@ source ollama_env/bin/activate
    pip3 install ollama
    ```
 
-### 📝 <span style="color:purple">**Code Example**</span>  
+### 📝 <span style="color:purple">**Code Example (Use Any IDE)**</span>  
    ```  
    import ollama
 
