@@ -7,7 +7,7 @@
 
 1. **Download & Install Ollama** from [Ollama Official Site](https://ollama.com/)  
 2. **Download & Install Python** from [Python Official Site](https://www.python.org/downloads/)  
-3. **QuickStart Ollama run**
+3. **QuickStart**: To run Ollama and pull the given model `deepseek-r1:"ModelVersion"`, use the following command:
    ```
    ollama run "deepseek-r1:1.5b" 
    ```
